@@ -3,7 +3,7 @@ This is a Snowflake stored procedure to generate views on raw SAP tables with me
 It uses SAP's dictionary table DD03M to find matching descriptions for the original, usually 5 letter fields names.
 
 
-###How to use###
+### How to use
 
 1. Ingest your Raw tables from SAP to Snowflake, including DD03M table.
 2. Create stored procedure in your Snowflake system. 
